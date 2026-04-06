@@ -53,7 +53,7 @@ class Track implements AnalyticsInterface
      * @param string $event
      */
     public function __construct(
-        $event = null,
+        ?string $event = null,
         array $properties = [],
         array $context = [],
         bool $useTimestamp = false
